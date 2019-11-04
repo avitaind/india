@@ -7,13 +7,13 @@
                     <div class="banner-block responsive-item">
                         @if( App::isLocale('en') )
                             <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/diwali_banner.jpg')"></div>
+                                 style="background-image: url('/images/banner/diwali_web_banner2.jpg')"></div>
                         @else
                             <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/diwali_banner.jpg')"></div>
+                                 style="background-image: url('/images/banner/diwali_web_banner2.jpg')"></div>
                         @endif
                         <div class="banner-bg hidden-md-up"
-                             style="background-image: url('/images/banner/diwali_mobile.jpg')"></div>
+                             style="background-image: url('/images/banner/diwali_mobile_banner2.jpg')"></div>
                     </div>
                     </a>
                 </div>
