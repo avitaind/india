@@ -159,7 +159,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/blog">Blog</a>
                 </li>  <li class="nav-item">
-                    <a class="nav-link" href="/diwali-campaign">Diwali Offer</a>
+                    <a class="nav-link" href="/diwali-campaign">Autumn Carnival Offer</a>
                 </li>
 
             </ul>
