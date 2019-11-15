@@ -20,7 +20,7 @@
                 </div>
         </div>
 	--->
- <div class="carousel-item">
+ <div class="carousel-item active">
          <div class="responsive-block">
                 <div class="banner-block responsive-item">
                         @if( App::isLocale('en') )
