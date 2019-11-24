@@ -53,6 +53,9 @@
                                     </ul>
                                 </div>
                             </li>
+                        </ul>
+                    </div>
+                </li>
             <li class="nav-item has-dropdown">
                 <input id="header_product_device" type="checkbox" hidden="">
                   <a class="nav-link px-md-4 py-2"><label for="header_product_device" class="d-block mb-0">@lang('site.smart_device')</label></a>
@@ -102,7 +105,7 @@
                     <a class="nav-link" href="{{ route('support') }}">@lang('site.service')</a>
                 </li>
 
-        <li class="nav-item has-dropdown">
+             <li class="nav-item has-dropdown">
                     <input id="header_buy_online" type="checkbox" hidden="">
                     <a class="nav-link px-md-4 py-2"><label for="header_buy_online" class="d-block mb-0">Buy Online</label></a>
                     <div class="dropdown">
@@ -128,7 +131,7 @@
                 </li>  
 
 
-      </ul>
+            </ul>
          </div>
 
     </div>
