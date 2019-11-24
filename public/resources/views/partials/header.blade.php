@@ -111,19 +111,19 @@
                     <a class="nav-link px-md-4 py-2"><label for="header_buy_online" class="d-block mb-0">Buy Online</label></a>
                     <div class="dropdown">
                          <ul class="list-unstyled">
-
-                      <li class="nav-item">
-                                <a class="nav-link px-md-4 py-2" href="https://ekhareedo.com/">E-Khareedo</a>
+                            <li class="nav-item">
+                                <a class="nav-link px-md-4 py-2" href="https://www.flipkart.com/search?q=avita+laptops&otracker=search&otracker1=search&marketplace=FLIPKART&p%5B%5D=facets.serviceability%5B%5D%3Dtrue&p%5B%5D=facets.brand%255B%255D%3DAvita">Flipkart</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link px-md-4 py-2" href="https://www.amazon.in/s?k=avita&rh=p_89%3AAVITA&dc&qid=1556975220&rnid=3837712031&ref=sr_nr_p_89_1">Amazon</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link px-md-4 py-2" href="https://www.flipkart.com/search?q=avita+laptops&otracker=search&otracker1=search&marketplace=FLIPKART&p%5B%5D=facets.serviceability%5B%5D%3Dtrue&p%5B%5D=facets.brand%255B%255D%3DAvita">Flipkart</a>
-                            </li>
-                            <li class="nav-item">
                                 <a class="nav-link px-md-4 py-2" href="https://paytmmall.com/shop/search?q=avita&from=organic&child_site_id=6&site_id=2&page=1&brand=510306">Paytm Mall</a>
                             </li>
+                             <li class="nav-item">
+                                <a class="nav-link px-md-4 py-2" href="https://ekhareedo.com/">E-Khareedo</a>
+                            </li>
+                            
                          </ul>
                     </div>
                 </li>
