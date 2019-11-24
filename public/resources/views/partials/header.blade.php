@@ -137,11 +137,10 @@
                     <a class="nav-link px-md-4 py-2"><label for="header_product_device" class="d-block mb-0">Buy Online</label></a>
                     <div class="dropdown">
                         <ul class="list-unstyled">
-                           <li class="nav-item">
+                        <!---   <li class="nav-item">
                                 <a class="nav-link px-md-4 py-2" href="http://store.avita-india.com/">AVITA Store</a>
-                            </li>
-
-				           <li class="nav-item">
+                            </li> --->
+			 <li class="nav-item">
                                 <a class="nav-link px-md-4 py-2" href="https://ekhareedo.com/">E-Khareedo</a>
                             </li>
                             <li class="nav-item">
