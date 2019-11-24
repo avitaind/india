@@ -85,12 +85,9 @@
                                 </div>
                             </li>
 
-
-
-
                             <li class="nav-item has-dropdown">
                                 <input id="header_product_device" type="checkbox" hidden="">
-                                <a class="nav-link px-md-4 py-2"><label for="" class="d-block mb-0">@lang('site.accessories')</label></a>
+                                <a class="nav-link px-md-4 py-2"><label for="header_product_accessories" class="d-block mb-0">@lang('site.accessories')</label></a>
                                 <div class="dropdown">
                                     <ul class="list-unstyled">
 
@@ -134,7 +131,7 @@
 
                 <li class="nav-item has-dropdown">
                     <input id="header_product_device2" type="checkbox" hidden="">
-                    <a class="nav-link px-md-4 py-2"><label for="" class="d-block mb-0">Buy Online</label></a>
+                    <a class="nav-link px-md-4 py-2"><label for="header_buy_online" class="d-block mb-0">Buy Online</label></a>
                     <div class="dropdown">
                         <ul class="list-unstyled">
                         <!---   <li class="nav-item">
