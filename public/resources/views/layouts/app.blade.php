@@ -45,7 +45,6 @@
     
     
    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWQCKIl7B4w27KcSW-tW4ja_Rk4SbcPnk&callback=initMap" type="text/javascript"></script>
-    <script src="{{asset('/js/support.js')}}"></script>
 
 
     <script src="//use.typekit.net/wpk4iql.js"></script>
@@ -105,8 +104,9 @@
     @include('partials.footer')
 @endif
 
-<script defer="defer" type="text/javascript" type="text/javascript" src="{{ asset('js/vendor.js') }}"></script>
-<script defer="defer" type="text/javascript" type="text/javascript" src="{{ asset('js/demo.js') }}"></script>
+<script defer="defer" type="text/javascript" src="{{ asset('js/vendor.js') }}"></script>
+<script defer="defer"  type="text/javascript" src="{{ asset('js/demo.js') }}"></script>
+    <script defer="defer" type="text/javascript" src="{{asset('/js/support.js')}}"></script>
 
 <!-- Facebook API -->
 <script>
@@ -145,6 +145,7 @@
 
 
 </script>
+
 <noscript>
     <div style="display:inline;">
         <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/830592061/?guid=ON&amp;script=0"/>
