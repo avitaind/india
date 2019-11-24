@@ -51,9 +51,10 @@ class HomeController extends Controller
     }
 
     public function getSupport( ){
-        $productModels = ProductModel::all();
+               $country = 'in';
 
-        $country = 'in';
+	    $productModels = ProductModel::all();
+
         $serviceCenters = ServiceCenter::whereCountry($country)->get();
 
         return view('pages.support', compact('productModels', 'serviceCenters'));
@@ -101,7 +102,7 @@ class HomeController extends Controller
 
         // Determine which contact_us page by region
 
-        $country_code = session('country', 'hk');
+        $country_code = session('country', 'in');
 
         $view_name = 'pages.contact_us_'.$country_code;
 
