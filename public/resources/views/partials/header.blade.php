@@ -53,10 +53,7 @@
                                     </ul>
                                 </div>
                             </li>
-                        </ul>
-                    </div>
-                </li>
-            <li class="nav-item has-dropdown">
+                                        <li class="nav-item has-dropdown">
                 <input id="header_product_device" type="checkbox" hidden="">
                   <a class="nav-link px-md-4 py-2"><label for="header_product_device" class="d-block mb-0">@lang('site.smart_device')</label></a>
                             <div class="dropdown">
@@ -86,6 +83,10 @@
                                     </ul>
                  </div>
              </li>
+                        </ul>
+                    </div>
+                </li>
+
       
             <li class="nav-item">
                     <a class="nav-link" href="{{ route('news') }}">@lang('site.news')</a>
