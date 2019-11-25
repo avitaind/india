@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 @php
-	$country = 'in';
+    $country = 'in';
     $xml_lang = ($lang == 'en') ? 'en' : 'zh-hk';
 
     $keyword = metaKeywordByCountryAndLanguage( $country, $lang);
@@ -46,7 +46,8 @@
     
    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWQCKIl7B4w27KcSW-tW4ja_Rk4SbcPnk&callback=initMap" type="text/javascript"></script>
 
-
+ <script src="{{asset('/js/support.js')}}"></script>
+ 
     <script src="//use.typekit.net/wpk4iql.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
     
@@ -106,7 +107,7 @@
 
 <script defer="defer" type="text/javascript" src="{{ asset('js/vendor.js') }}"></script>
 <script defer="defer"  type="text/javascript" src="{{ asset('js/demo.js') }}"></script>
-    <script defer="defer" type="text/javascript" src="{{asset('/js/support.js')}}"></script>
+
 
 <!-- Facebook API -->
 <script>
