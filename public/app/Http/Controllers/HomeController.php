@@ -61,10 +61,10 @@ class HomeController extends Controller
     }
 
     public function handleSupportRedirect(Request $request) {
-
+	    
         $this->validate($request, [
             'product_number'   => 'required',
-//            'product_model'  => 'required',
+//          'product_model'  => 'required',
             'type'             => 'required',
             'series'           => 'required',
             'marketing_number' => 'required',
@@ -81,13 +81,14 @@ class HomeController extends Controller
         $short_code = 'liber';
 
         $params = ['slug'   => $short_code,
-                   'model'  => $product_model,
-                   'pn'     => $product_number,
-                   'type'   => $product_type,
-                   'series' => $product_series,
-                   'marketing_number' => $request->get('marketing_number')];
+            'model'  => $product_model,
+            'pn'     => $product_number,
+            'type'   => $product_type,
+            'series' => $product_series,
+            'marketing_number' => $request->get('marketing_number')];
 
         return redirect()->route('product.support', $params);
+	    
     }
 
     public function getSearch_result( ){
