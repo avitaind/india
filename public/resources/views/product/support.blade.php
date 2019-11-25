@@ -108,8 +108,10 @@
 
 					<div class="support-knowledge">
 						<div id="FAQcarouselIndicators" class="carousel slide" data-ride="carousel" data-wrap=false>
-				
-						<div class="carousel-inner" role="listbox">
+
+
+
+							<div class="carousel-inner" role="listbox">
 
 									@foreach( $product->faqs as $index => $item )
 
@@ -190,6 +192,8 @@
 
 @section('js')
 
+	<script src="/js/support.js"></script>
+
 	<script>
 
 
@@ -212,8 +216,5 @@
 
 
 	</script>
-	 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWQCKIl7B4w27KcSW-tW4ja_Rk4SbcPnk&callback=initMap">  </script>
-    <script src="{{asset('/js/support.js')}}"></script>
-
 
 @stop
