@@ -38,13 +38,7 @@
     <link type="text/css" rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}"/>
     <link type="text/css" rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}"/>
     <link type="text/css" rel="stylesheet" href="{{ asset('css/global.css') }}"/>
-    
-    
-  <!---
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWQCKIl7B4w27KcSW-tW4ja_Rk4SbcPnk&callback=initMap" type="text/javascript"></script>
-  --->
-
- 
+  
     <script src="//use.typekit.net/wpk4iql.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
     
@@ -149,8 +143,10 @@
         <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/830592061/?guid=ON&amp;script=0"/>
     </div>
 </noscript>
- <script src="{{asset('/js/support.js')}}"></script>
 
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWQCKIl7B4w27KcSW-tW4ja_Rk4SbcPnk&callback=initMap" type="text/javascript"></script>
+  
+<script src="{{asset('/js/support.js')}}"></script>
 @stack('js')
 @yield('js')
 
