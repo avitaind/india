@@ -3,12 +3,8 @@
 @php
     $country = 'in';
     $xml_lang = ($lang == 'en') ? 'en' : 'zh-hk';
-
     $keyword = metaKeywordByCountryAndLanguage( $country, $lang);
-
     $description = metaDescriptionByCountryAndLanguage( $country, $lang );
-
-
 @endphp
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{{ $xml_lang }}" lang="{{ $xml_lang }}">
@@ -44,9 +40,10 @@
     <link type="text/css" rel="stylesheet" href="{{ asset('css/global.css') }}"/>
     
     
-   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWQCKIl7B4w27KcSW-tW4ja_Rk4SbcPnk&callback=initMap" type="text/javascript"></script>
+  <!---
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWQCKIl7B4w27KcSW-tW4ja_Rk4SbcPnk&callback=initMap" type="text/javascript"></script>
+  --->
 
- <script src="{{asset('/js/support.js')}}"></script>
  
     <script src="//use.typekit.net/wpk4iql.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
@@ -152,6 +149,7 @@
         <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/830592061/?guid=ON&amp;script=0"/>
     </div>
 </noscript>
+ <script src="{{asset('/js/support.js')}}"></script>
 
 @stack('js')
 @yield('js')
