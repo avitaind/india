@@ -51,10 +51,10 @@ class HomeController extends Controller
     }
 
     public function getSupport( ){
-               $country = 'in';
+        
+        $productModels = ProductModel::all();
 
-	    $productModels = ProductModel::all();
-
+        $country = 'in';
         $serviceCenters = ServiceCenter::whereCountry($country)->get();
 
         return view('pages.support', compact('productModels', 'serviceCenters'));
