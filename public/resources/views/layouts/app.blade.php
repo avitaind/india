@@ -39,6 +39,11 @@
     <link type="text/css" rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}"/>
     <link type="text/css" rel="stylesheet" href="{{ asset('css/global.css') }}"/>
   
+  
+  
+ <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBr7-Z7QjWcC1iKhEI7wCCRFf3OE749G8g&callback=initMap" type="text/javascript"></script>
+    <script src="{{asset('/js/support.js')}}"></script>
+
     <script src="//use.typekit.net/wpk4iql.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
     
