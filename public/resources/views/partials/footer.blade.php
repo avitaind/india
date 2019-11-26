@@ -48,8 +48,8 @@
                             @endif
 
                             <a href="/contact_us" class="my-1">@lang('site.footer_contact')</a>
-         
-                        
+
+
                         </div>
                         <div class="d-flex flex-column ml-5 ml-md-0 small-lsm-little">
                             <a href="{{ route('support') }}" class="my-1">@lang('site.productnav_support')</a>
@@ -86,30 +86,31 @@
                     </div>
                 </div>
                 <!---
-                
+
                 --->
-                
-                   <div class="col-12 col-md-3 py-3 py-md-0 text-left">
+
+                <div class="col-12 col-md-3 py-3 py-md-0 text-left">
                     <div class="d-flex justify-content-between hidden-xs-down">
                         <div class="d-flex flex-column mr-3 ml-md-0 small-lsm-little">
                             <strong>Available On</strong>
-                            <a href="http://store.avita-india.com/">AVITA Store</a>
-                            <a href="https://www.amazon.in/s?k=avita&rh=p_89%3AAVITA&dc&qid=1556975220&rnid=3837712031&ref=sr_nr_p_89_1" class="my-1">Amazon</a>
                             <a href="https://www.flipkart.com/search?q=avita+laptops&otracker=search&otracker1=search&marketplace=FLIPKART&p%5B%5D=facets.serviceability%5B%5D%3Dtrue&p%5B%5D=facets.brand%255B%255D%3DAvita" class="my-1">Flipkart</a>
+                            <a href="https://www.amazon.in/s?k=avita&rh=p_89%3AAVITA&dc&qid=1556975220&rnid=3837712031&ref=sr_nr_p_89_1" class="my-1">Amazon</a>
                             <a href="https://paytmmall.com/shop/search?q=avita&from=organic&child_site_id=6&site_id=2&page=1&brand=510306" class="my-1">Paytm Mall</a>
+                            <a href="https://ekhareedo.com/?s=avita+laptops&product_cat=0&post_type=product" class="my-1">Ekhareedo</a>
+
                         </div>
-                        
-            
+
+
                     </div>
-            
+
                 </div>
-               
+
                 <div class="col-12 col-md-4 pb-3 py-md-0 text-md-right">
                     <div class="d-flex flex-wrap h-100 align-content-between">
                         <div class="col-12 info-lang w-100 px-0 hidden-sm-down">
                             <a class="col-6 px-0" href="/entry"><i class="fa fa-globe mr-2" aria-hidden="true"></i><span class="">INDIA</span></a>
                         </div>
-                         <div class="col-12 info-lang w-100 px-0 hidden-md-up pb-sm-2">
+                        <div class="col-12 info-lang w-100 px-0 hidden-md-up pb-sm-2">
                             <a class="col-6 px-0" href="/entry"><i class="fa fa-globe mr-2" aria-hidden="true"></i><span class="pr-2">{{ strtoupper( __("site.global_{$country}")) }}</span></a>
 
 
