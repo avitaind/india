@@ -193,6 +193,7 @@
 @section('js')
 
 	<script src="/js/support.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBr7-Z7QjWcC1iKhEI7wCCRFf3OE749G8g&callback=initMap">  </script>
 
 	<script>
 
@@ -216,6 +217,5 @@
 
 
 	</script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBr7-Z7QjWcC1iKhEI7wCCRFf3OE749G8g&callback=initMap">  </script>
 
 @stop
