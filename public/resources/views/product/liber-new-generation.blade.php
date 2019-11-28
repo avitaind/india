@@ -331,7 +331,7 @@
                                     <div class="badge-caption">NTSC</div>
                                 </div>
                                 --->
-                               <div class="data-card col-6 col-sm-5 my-2 my-sm-3">
+                               <div class="data-card col-6 col-sm-9 my-2 my-sm-3">
                                     <div class="badge-value">1920x1080</div>
                                     <div class="badge-caption">Resolution</div>
                                 </div>
