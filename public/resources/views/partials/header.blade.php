@@ -37,11 +37,11 @@
                                         @else
 
                                             <li class="nav-item">
-                                                <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['liber12']) }}">LIBER</a>
+                                                <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['liber12']) }}">AVITA LIBER 12.5"</a>
                                             </li>
 
                                             <li class="nav-item">
-                                                <a class="nav-link px-md-4 py-2" href="/products/liber-new-generation">LIBER New Generation</a>
+                                                <a class="nav-link px-md-4 py-2" href="/products/liber-new-generation">AVITA LIBER 13.3" & 14"</a>
                                             </li>
 
                                             <li class="nav-item">
