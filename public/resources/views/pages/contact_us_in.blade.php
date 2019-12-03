@@ -30,7 +30,7 @@
                             <div class="mb-2"><b>Address :</b><br>
                                 211B - 211C, 2nd Floor, Elegance Tower, Jasola Vihar, New Delhi, Delhi-110025</div>
                             <h2 class="contact_us_title">For Service :</h2>
-                            <div class="mb-2">Toll Free : 1800-22-3902</div>
+                            <div class="mb-2">Toll Free : 1800-599-2273</div>
 
                         </div>
                         <div class="col-sm-6">
