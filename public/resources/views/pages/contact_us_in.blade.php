@@ -18,10 +18,10 @@
                         <div class="col-sm-6">
                             <h2 class="contact_us_title">General Sales Enquiry :</h2>
 
-                            <div class="mb-2">+91-9840024085,<br/> +91-11-6635-1144</div>
+                            <div class="mb-2">+91-7827845054,<br/> +91-11-6635-1144</div>
 
                             <div class="mb-2"><b>Email :</b><br>
-                                INsales@nexstgo.com</div>
+                                Insales@nexstgo.com</div>
 
                             <div><b>@lang('site.contactus_operating')</b><br>
                                 Monday to Friday : 9 am - 6 pm</div>
