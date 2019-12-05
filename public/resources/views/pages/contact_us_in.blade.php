@@ -18,18 +18,18 @@
                         <div class="col-sm-6">
                             <h2 class="contact_us_title">General Sales Enquiry :</h2>
 
-                            <div class="mb-2">+91-7827845054,<br/> +91-11-6635-1144</div>
+                            <div class="mb-2">+91-7827845054</div>
 
                             <div class="mb-2"><b>Email :</b><br>
                                 Insales@nexstgo.com</div>
 
-                            <div><b>@lang('site.contactus_operating')</b><br>
-                                Monday to Friday : 9 am - 6 pm</div>
+                            <div><b>@lang('site.contactus_operating') :</b><br>
+                                Monday to Friday : 9:00 am - 6:00 pm</div>
 
 
                             <div class="mb-2"><b>Address :</b><br>
-                                211B - 211C, 2nd Floor, Elegance Tower, Jasola Vihar, New Delhi, Delhi-110025</div>
-                            <h2 class="contact_us_title">For Service :</h2>
+                                211B - 211C, 2<sup>nd</sup> Floor, Elegance Tower, Jasola Vihar, New Delhi, Delhi-110025</div>
+                            <h2 class="contact_us_title">Service :</h2>
                             <div class="mb-2">Toll Free : 1800-599-2273</div>
 
                         </div>
